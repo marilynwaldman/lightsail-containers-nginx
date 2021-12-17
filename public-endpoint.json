@@ -1,4 +1,4 @@
 {
-    "containerName": "nginx",
+    "containerName": "proxy",
     "containerPort": 80
 }
