@@ -12,12 +12,8 @@
     },
     "flask": {
         "image": ":sample-service.flask-container.21",
-        "command": ["flask", "run", "--host", "0.0.0.0"],
         "ports": {
             "5000": "HTTP"
-        },
-        "environment": {
-            "FLASK_APP": "app.py"
         }
     }
 }
